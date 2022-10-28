@@ -17,12 +17,14 @@ npm run build
 
 # git init
 git add dist
-git commit -m 'adding dist subtree'
+git commit -m 'add dist subtree and deploy'
 
 # если вы публикуете по адресу https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
 git subtree push --prefix dist origin gh-pages
+
+git checkout main
 
 # cd -
