@@ -2,7 +2,7 @@
   <div>
     <h2>Список задач</h2>
 
-    <router-link to="/about">О приложении</router-link>
+    <router-link :to="{name: 'About'}">О приложении</router-link>
 
     <div id="todoBar">
 

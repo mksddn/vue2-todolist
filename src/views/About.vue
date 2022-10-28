@@ -15,7 +15,7 @@
     </ul>
     <br>
 
-    <router-link to="/">К задачам</router-link>
+    <router-link :to="{name: 'Home'}">К задачам</router-link>
 
   </div>
 </template>

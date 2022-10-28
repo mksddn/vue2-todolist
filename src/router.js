@@ -4,19 +4,23 @@ import Todos from '@/views/Todos'
 
 Vue.use(Router)
 
+const ghpRepoName = '/'
+
 export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: `${ghpRepoName}/`,
+      name: 'Home',
       component: Todos
     },
     {
-      path: '/about',
+      path: `${ghpRepoName}/about`,
+      name: 'About',
       component: () => import('./views/About.vue')
     },
     {
-      path: '/todo/:id',
+      path: `${ghpRepoName}/todo/:id`,
       name: 'TodoPage',
       component: () => import('./views/TodoPage.vue')
     }

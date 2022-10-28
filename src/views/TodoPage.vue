@@ -10,7 +10,7 @@
     <p ref="discl" class="discl">Внесены изменения в состояние хранилища, но они сбросятся при возврате к задачам, так
       как мы не используем localStorage</p><br>
 
-    <router-link to="/">К задачам</router-link>
+    <router-link :to="{name: 'Home'}">К задачам</router-link>
   </div>
 </template>
 
