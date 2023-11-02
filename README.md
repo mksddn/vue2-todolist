@@ -11,8 +11,8 @@
 - Возможность просмотреть элемент списка на отдельной странице, используя `vue router`.
 - `Анимация` элементов списка.
 
-### [Открыть в GitHub Pages](https://mrmadu.github.io/vue2-todolist/)
-### [Запустить в сэндбоксе](https://codesandbox.io/s/github/mrmadu/vue2-todolist)
+### [Открыть в GitHub Pages](https://mksddn.github.io/vue2-todolist/)
+### [Запустить в сэндбоксе](https://codesandbox.io/s/github/mksddn/vue2-todolist)
 
 ------------------
 
